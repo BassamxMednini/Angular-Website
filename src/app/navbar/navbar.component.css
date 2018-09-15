@@ -1,5 +1,7 @@
 .navbar {
     border-bottom: 0.5px rgba(75, 75, 75, 0.5) solid;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .navbar-brand {
@@ -13,7 +15,16 @@
     font-size: 1.5em;
 }
 
+.nav-item {
+    padding: 0px 10px;
+}
 
 .nav-item i {
-    font-size: 1.3rem; 
+    padding-top: 5px;
+    font-size: 1.6rem; 
+}
+
+
+.nav-link {
+    /* background-color: red; */
 }
