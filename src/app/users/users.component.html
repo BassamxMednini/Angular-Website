@@ -1,3 +1,40 @@
-<p>
-  users works!
-</p>
+<h1 class="display-4 text-center">Users</h1>
+
+<div class="container">
+    <!-- 1. Spalte-->
+    <div class="row">
+      <div class="col"></div>
+    <!-- 2. Spalte -->
+    <div class="col-8">
+      <div class="accordion" id="accordionExample">
+        <div class="card" *ngFor="let user of users$">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                {{ user.name }}
+              </button>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <li><i class="far fa-user-circle"></i> Username: {{ user.username }}</li>
+                <li><i class="far fa-envelope"></i> Email: <a href="mailto:{{ user.email }}">{{ user.email }}</a></li>
+                <li><i class="fas fa-mobile-alt"></i> Phone: {{ user.phone }}</li>
+                <li><i class="far fa-address-card"></i> Website: {{ user.website }}</li>
+              </ul>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 3. Spalte -->
+    <div class="col"></div>
+    </div>
+</div>
+
+
+        <div class="col-6">
+          2 of 3 (wider)
+        </div>
+        
