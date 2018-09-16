@@ -4,5 +4,4 @@ Basierend auf Angular CLI (6.2.1) besteht die Website. Über eine HTTP-Request w
 ## Erste Eindrücke
 Noch ist die Website nicht vollständig. Eine einfache Navbar, die lediglich aus Icons besteht, wurde eingebaut. Über die UsersComponent wurde erstmals auf die API zugegriffen und mithilfe einem Accordion werden diese angezeigt. 
 
-<img src="https://github.com/BassamxMednini/Angular-Website-App/blob/master/src/images/screenshot_1.png" width="300" height="150" />
-<img src="https://github.com/BassamxMednini/Angular-Website-App/blob/master/src/images/screenshot_2.png" width="300" height="150" />
+<img src="https://github.com/BassamxMednini/Angular-Website-App/blob/master/src/images/screenshot_1.png?raw=true"" width="300" height="150" /> <img src="https://github.com/BassamxMednini/Angular-Website-App/blob/master/src/images/screenshot_2.png?raw=true"" width="300" height="150" />
