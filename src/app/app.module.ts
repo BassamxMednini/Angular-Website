@@ -9,13 +9,15 @@ import { PostsComponent } from './posts/posts.component';
 import { UsersComponent } from './users/users.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DetailsComponent,
     PostsComponent,
-    UsersComponent
+    UsersComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
