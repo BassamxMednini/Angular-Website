@@ -1,3 +1,27 @@
-<p>
-  details works!
-</p>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-6">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="/src/images/pexels-photo-952670.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{ user$.name }}</h5>
+            <p class="card-text">
+              <strong>Username:</strong> {{ user$.username }}<br>
+              <strong>Email:</strong> {{ user$.email }}<br>
+              <strong>Address:</strong> 
+                <li>{{ user$.address.street }}</li>
+                <li>{{ user$.address.suite }}</li>
+                <li>{{ user$.address.city }}</li>
+                <li>{{ user$.address.zip-code }}</li>
+              <strong>Phone:</strong> {{ user$.phone }}<br>
+              <strong>Website:</strong> {{ user$.website }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
